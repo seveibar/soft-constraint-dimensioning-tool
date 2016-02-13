@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script defer type="application/dart" src="main.dart"></script>
+    <script defer src="packages/browser/dart.js"></script>
+
+    <style>
+    body{
+      overflow-y:hidden;
+      overflow-x:hidden;
+      margin:0;
+      padding:0;
+      border-spacing:0;
+    }
+    </style>
+  </head>
+  <body>
+    <canvas id='canvas'></canvas><br/>
+    <button id='add-points'>add points</button>
+    <button id='dimension'>dimension</button>
+    <input type='text' id='dimension-size' placeholder='dimension size'></input>
+    <button id='vertical'>vertical constraint</button>
+    <button id='horizontal'>horizontal constraint</button>
+    <button id='move-point'>move point</button>
+    <button id='activate-point'>activate point</button>
+    <span id='actionbox'></span>
+  </body>
+</html>
